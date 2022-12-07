@@ -1,0 +1,40 @@
+.container-items {
+	display: grid;
+	grid-template-columns: repeat(auto-fill,230px);
+	gap: 40px;
+	padding: 40;
+	justify-content: center;
+}
+
+.img {
+	object-fit: cover;
+	border-radius: 10px;
+	background-color: red;
+	width: 230px;
+	height: 345px;
+}
+
+
+h2{
+	text-align: center;
+	font-size: 20px;
+}
+
+.alineado {
+	padding: 15px 30px;
+	line-height: 2;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;}
+
+
+
+.cart-empty {
+	padding: 20px;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
