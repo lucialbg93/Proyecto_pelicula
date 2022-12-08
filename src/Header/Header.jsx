@@ -22,7 +22,7 @@ export const Header = ({
 	return (
 		<header>
 			
-			<h1>WatchList</h1>
+			<h1>Peliculas</h1>
 
 			<div className='icono-contenedor'>
 				<div
